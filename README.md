@@ -1,7 +1,7 @@
 # How to make Tuya Radiator Thermovalve TV02-ZG work with Tuyapi
 
 ## Problem:
-Eventhoguh Tuyapi project (https://codetheweb.github.io/tuyapi/) represents a robust solution on how to work with various device that use the Tuya ecosystem, each product is specific.
+Even thoguh Tuyapi project (https://codetheweb.github.io/tuyapi/) represents a robust solution on how to work with various device that use the Tuya ecosystem, each product is specific.
 
 The thermovalve TV02-ZG looks like this:
 
@@ -48,7 +48,7 @@ DP_REFRESH data from device:  { dps: { '24': 211 }, cid: 'xxxxxxx', t: 163489990
   ```
 This refreshes the data completely.
 
-* There might be a better way to do it. So please note these steps were composed rather ad-hoc just in case they help with your projects :-).
+* There might be a better way to do it. So please note these steps were composed rather ad-hoc just in case they help with your projects :).
 
 
 
