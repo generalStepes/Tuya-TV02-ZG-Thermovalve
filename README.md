@@ -29,7 +29,7 @@ const device = new TuyAPI({
 
 <img width="1005" alt="Screenshot 2021-10-22 at 13 07 54" src="https://user-images.githubusercontent.com/27240074/138444063-b5a3d393-0628-42a2-894c-bde39b2858d6.png">
 
-* Running out of options, I tried re-setting various DPSs and getting their values to understand how the refreshes work as `Check01` seems to be absolutely undocumented. I figured out setting the DPS 115 to `true` or `1` helps. The value is that reset after each query automatically. 
+* Running out of options, I tried re-setting various DPSs and getting their values to understand how the refreshes work as `Check01` seems to be absolutely undocumented. I figured out setting the DPS 115 to `true` or `1` helps. The value is then reset after each query automatically. 
 
 `device.set({cid: 'xxxxxxx', dps:115,set:true}`
 
